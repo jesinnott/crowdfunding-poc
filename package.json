@@ -1,0 +1,23 @@
+{
+  "name": "crowdfunding-poc",
+  "version": "1.0.0",
+  "description": "Example of crowdfunding contract in solidity",
+  "main": "index.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate:testnet": "truffle migrate --network ropsten"
+  },
+  "keywords": [
+    "solidity",
+    "crowdfunding",
+    "smart",
+    "contract",
+    "blockchain"
+  ],
+  "author": "Juan Sinnott",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
